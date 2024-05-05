@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: var(--paragraph-font 'Noto Sans', Arial, Helvetica, sans-serif);
+    font-family: var(--paragraph-font Arial, Helvetica, sans-serif);
     max-width: 960px;
     padding: 20px;
   }
@@ -20,7 +20,7 @@ body {
     --nav-hover-link-color: #CFB1B7;
     --nav-hover-background-color: #83858C;
     
-    font-family: var(--paragraph-font 'Noto Sans');
+    font-family: var(--paragraph-font Arial);
     max-width: 960px;
     padding: 20px;
   }
@@ -61,4 +61,3 @@ body {
     background-color: var(--nav-hover-background-color);
   }
 
-  
