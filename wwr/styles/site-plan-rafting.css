@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.courgette-regular {
-  font-family: "Courgette", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -18,21 +12,21 @@ body {
     --accent1-color: #A59EFA;
     --accent2-color: #E4DBFB;
   
-    --heading-font: "Courgette";
-    --paragraph-font: "Roboto", sans-serif;
+    --heading-font: Courgette, serif;
+    --paragraph-font: Roboto, Arial, serif;
   
     --nav-background-color: #E4DBFB;
     --nav-link-color: #A59EFA;
     --nav-hover-link-color: #CFB1B7;
     --nav-hover-background-color: #83858C;
     
-    font-family: var(--paragraph-font "Roboto", sans-serif);
+    font-family: var(--paragraph-font Roboto);
     max-width: 960px;
     padding: 20px;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font "Courgette");
+    font-family: var(--heading-font Courgette);
     color: var(--primary-color);
   }
 
