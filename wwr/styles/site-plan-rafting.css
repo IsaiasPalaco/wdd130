@@ -12,21 +12,21 @@ body {
     --accent1-color: #A59EFA;
     --accent2-color: #E4DBFB;
   
-    --heading-font: Courgette, serif;
-    --paragraph-font: Roboto, Arial, serif;
+    --heading-font: 'Courgette', serif;
+    --paragraph-font: 'Roboto', Arial, serif;
   
     --nav-background-color: #E4DBFB;
     --nav-link-color: #A59EFA;
     --nav-hover-link-color: #CFB1B7;
     --nav-hover-background-color: #83858C;
     
-    font-family: var(--paragraph-font Roboto);
+    font-family: var(--paragraph-font 'Roboto');
     max-width: 960px;
     padding: 20px;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font Courgette);
+    font-family: var(--heading-font 'Courgette');
     color: var(--primary-color);
   }
 
