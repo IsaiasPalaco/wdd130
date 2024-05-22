@@ -27,11 +27,19 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    
+
   }
 
   header {
     padding: 20px;
-    background-color: var(--accent1-color);
+  }
+
+  header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 25px;
   }
 
   p {
@@ -39,14 +47,17 @@
   }
 
   nav {
-    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    width: 100%;
+    line-height: 3rem;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-around;
   }
   
   nav a {
     display: block;
-    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
   }
@@ -55,11 +66,6 @@
     color: var(--nav-link-color);
   }
   
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
-
   .hero {
     margin: 10px auto;
     position: relative;
@@ -68,17 +74,70 @@
   .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 400px;
   }
 
   .hero h1{
     position: absolute;
+    text-align: center;
+    bottom: 300px;
+    width: 100%;
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px #000000;
+      color: var(--accent1-color);
+      background-color:rgba(176, 176, 176, 0.374);
+  
   }
 
   .hero article{
     position: absolute;
+    bottom: 50px;
+    background: radial-gradient(#9b7231db, #b59554a7);
+      opacity: .9;
+      color: rgb(0, 0, 0);
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+      font-family: var(--paragraph2-font);
   }
 
   .hero article img {
     float: right;
+    width: 300px;
+    height: auto;
+    margin: 4px;
+    padding-left: 5px;
   }
+
+p {
+    font-family: var(--paragraph2-font);
+}
+  
+  section {
+    margin: 10px;
+}
+
+section img {
+    width: 50%;
+    margin: 5px;
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+  
+  .sociallinks img {
+    width: 40px;
+
+}
+.sociallinks a{
+    padding: 5px;
+    margin: 3px;
+}
+.sociallinks a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--secondary-color)
+}
