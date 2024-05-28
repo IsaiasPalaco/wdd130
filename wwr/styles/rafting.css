@@ -6,16 +6,16 @@
 }
 
   :root {
-    --primary-color: #6CD4FF;
+    --primary-color: #1877f2;
     --secondary-color: #83858C;
-    --accent1-color: #A59EFA;
+    --accent1-color: #e9b20d;
     --accent2-color: #E4DBFB;
   
     --heading-font: Courgette, serif;
     --paragraph-font: Roboto, Arial, serif;
   
     --nav-background-color: #E4DBFB;
-    --nav-link-color: #A59EFA;
+    --nav-link-color: #1d07ff;
     --nav-hover-link-color: #CFB1B7;
     --nav-hover-background-color: #83858C;
     
@@ -88,9 +88,9 @@
     bottom: 300px;
     width: 100%;
     font-size: 2rem;
-    text-shadow: 3px 3px 5px #000000;
+    text-shadow: 2px 2px 0px #000000;
       color: var(--accent1-color);
-      background-color:rgba(176, 176, 176, 0.374);
+      background-color: rgb(0 0 0 / 37%);
   
   }
 
