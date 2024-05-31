@@ -33,8 +33,10 @@
 
   header {
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
   }
 
   header img {
