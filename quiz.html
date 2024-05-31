@@ -6,21 +6,26 @@
     <link rel="stylesheet" href="styles/quiz.css">
     <title>Online Quiz</title>
 </head>
+<header>
+  <h1>HTML Form/CSS - Quiz</h1>
+</header>
 <body>
-    <h1>HTML and CSS Quiz</h1>
-    <label for="q1">Fill in the blank:</label>
-<input type="text" id="q1" name="q1">
-<label for="q2">Short answer:</label>
-<textarea id="q2" name="q2" rows="4"></textarea>
-<label for="q3">Select an option:</label>
-<select id="q3" name="q3">
-    <option value="" selected disabled>Choose One ...</option>
-    <option value="option1">Option 1</option>
-    <option value="option2">Option 2</option>
-    <option value="option3">Option 3</option>
-</select>
-<label for="q4">Enter a number:</label>
-<input type="number" id="q4" name="q4">
-<button type="submit">Submit Quiz</button>
+  <form>
+        <label for="q1">1. What is HTML?</label>
+        <input type="text" id="q1" name="q1">
+        <label for="q2">2. What are the Advantages of Using CSS?</label>
+        <textarea id="q2" name="q2" rows="4"></textarea>
+        <label for="browser">3. Which selector has the highest specificity ranking for selecting the anchor link element?</label>
+        <select id="q3" name="q3">
+          <option value="" selected disabled>Choose One ...</option>
+          <option value="chrome">A: ul li a</option>
+          <option value="firefox">B: .example a</option>
+          <option value="safari">C: div a</option>
+          <option value="edge">D: a</option>
+        </select>
+        <label for="q4">4. What is the bottom margin given this declaration?</label>
+        <input type="number" id="q4" name="q4" placeholder="margin: 10px 5px 15px">
+      <button type="submit">Submit Quiz</button>
+   </form>
 </body>
 </html>
