@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Isaías Palaço</title>
+    <title>Contact Us</title>
     <meta name="description" content="">
     <meta name="author" content="Isais Palaço">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -19,46 +19,52 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/river-wide.jpeg" alt="river-wide">
-            <h1>Zambeze Rafting</h1>
-            <article>
-                <img src="images/rafting20_600.jpg" alt="rafting20_600">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae mollitia asperiores animi atque iure. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, animi qui consectetur, dignissimos voluptate doloremque dolores eos officiis atque accusantium mollitia natus explicabo repellat accusamus sint quo, iste perspiciatis labore?</p>
-            </article>
+    <h1>Contact Us</h1>
+
+    <p>Visit us at:</p>
+    <address>
+        Bairro: 1 de Maio<br>
+        Moatize, Tete-MZ
+    </address>
+    <p>Phone: (+258) 844400402</p>
+    <p>Email: <a href="mailto:iisaiaspalaco@gmail.com">isaiaspalaco@gmail.com</a></p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13865.974020254389!2d33.72477057619004!3d-16.11691990198266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2smz!4v1717331065941!5m2!1spt-PT!2smz" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="employee-profiles">
+        <div class="employee">
+            <img src="images/employee-00.png" alt="Employee 1">
+            <p>Isaias Palaco, CEO</p>
         </div>
-        <section>
-            <h2>History</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab impedit delectus. Vero ipsam recusandae assumenda obcaecati, aliquid placeat quaerat illum ducimus quo veritatis. Libero ea veniam sapiente error officia ex animi eligendi obcaecati necessitatibus delectus sint ad at vel impedit culpa voluptates iusto eius, hic adipisci alias magni debitis deleniti incidunt. At perferendis dicta facilis temporibus omnis, voluptatibus culpa!</p>
-        </section>
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <div class="image-container">
-                <figure class="adventure-image">
-                    <img src="images/rafting29_600.jpg" alt="Los Dientes del Diablo">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
-                <figure class="adventure-image">
-                    <img src="images/rafting42_600.jpg" alt="Big Mallard">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-                <figure class="adventure-image">
-                    <img src="images/rafting59_600.jpg" alt="Half Day Adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure class="adventure-image">
-                    <img src="images/rafting61_1024.jpg" alt="Another Adventure">
-                    <figcaption>Another Adventure</figcaption>
-                </figure>
-                <figure class="adventure-image">
-                    <img src="images/chuckwalla2.jpg" alt="Chuckwalla Rapids">
-                    <figcaption>Chuckwalla Rapids</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
+        <div class="employee">
+            <img src="images/employee-01.png" alt="Employee 2">
+            <p>Anna, Customer Support Specialist</p>
+        </div>
+        <div class="employee">
+            <img src="images/employee-02.png" alt="Employee 3">
+            <p>Emily, Adventure Guide</p>
+        </div>
+    </div>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <p>Purpose of Message:</p>
+        <label><input type="radio" name="purpose" value="General Inquiry"> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+        <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="Please leave your message!"></textarea>
+
+        <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter</label>
+
+        <button type="submit">Click here to Submit</button>
+    </form>
+</body>
     <footer>
         <p class="centered">©2024 🌴 Zambeze Rafting 🌴 Isaias Palaço 🌴 WDD 130</p>
+        <a href="https://app.moqups.com/MKenzW4kqN50hECK2refkbPz3YlsNVOM/view/page/af92b4e22">wireframe design</a>
         <nav class="sociallinks">
             <a href="https://facebook.com">
                 <img src="images/facebook.svg" alt="Facebook">

@@ -6,7 +6,7 @@
 }
 
   :root {
-    --primary-color: #1877f2;
+    --primary-color: #fcfcfc;
     --secondary-color: #83858C;
     --accent1-color: #e9b20d;
     --accent2-color: #E4DBFB;
@@ -15,7 +15,7 @@
     --paragraph-font: Roboto, Arial, serif;
   
     --nav-background-color: #E4DBFB;
-    --nav-link-color: #1d07ff;
+    --nav-link-color: #fcfcfc;
     --nav-hover-link-color: #CFB1B7;
     --nav-hover-background-color: #83858C;
     
@@ -27,16 +27,20 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    
-
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color:#535353 ;
+    border-radius: 15px;
   }
 
   header {
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 20px;
+    background-color: #535353;
   }
 
   header img {
@@ -48,18 +52,24 @@
 
   p {
     padding: 25px;
+    text-align: center;
+  }
+  address {
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
   }
 
   nav {
     font-size: 1.2rem;
+    font-weight: bold;
     display: flex;
     width: 100%;
     line-height: 3rem;
     text-align: right;
     list-style-type: none;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
   }
   
   nav a {
@@ -120,6 +130,10 @@
 p {
     font-family: var(--paragraph2-font);
 }
+
+a {
+  text-decoration: none;
+}
   
   section {
     max-width: 1200px;
@@ -162,6 +176,11 @@ footer {
 
 }
 
+iframe {
+  display: flex;
+  align-content: center;
+  border: 0;
+}
 
 .adventures {
   text-align: center; 
@@ -180,4 +199,57 @@ footer {
 
 .adventure-image img {
   max-width: 100%;
+}
+
+
+.employee-profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee {
+    text-align: center;
+    margin: 20px;
+}
+
+.employee img {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+}
+
+.employee p {
+    margin-top: 10px;
+}
+
+form {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+textarea {
+  border: 1px solid #999999;
+  width: 100%;
+  margin: 5px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: #535353;
 }
