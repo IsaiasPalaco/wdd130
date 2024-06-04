@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips | Rafting Zambeze</title>
+    <meta name="description" content="Explore our exciting travel destinations and book your dream trip today!">
+    <meta name="author" content="Isais Palaço">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Full-width image section */
+        .hero-image {
+            width: 100%;
+            height: auto;
+        }
+        /* Newsletter form styling */
+        .newsform {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .newsform input[type="text"],
+        .newsform input[type="email"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .newsform button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* Call to action button */
+        .cta-button {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #007bff;
+        }
+        /* Grid layout for content */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .grid-item {
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .grid-item img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/zambeze-rafting.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact US</a>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="images/river-wide.jpeg" alt="White Water Rafting" class="hero-image">
+        <div class="newsform">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <button type="submit">Subscribe</button>
+        </div>
+        <a href="https://isaiaspalaco.github.io/wdd130/wwr/trips.html" class="cta-button">Explore Our Trips</a>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="image1.jpg" alt="Rafting Site Purpose">
+                <p>Content about rafting site purpose</p>
+            </div>
+            <div class="grid-item">
+                <img src="image2.jpg" alt="Offerings">
+                <p>Content about offerings</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
